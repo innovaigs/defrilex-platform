@@ -1,0 +1,22 @@
+{
+  "name": "@defrilex/utils",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@defrilex/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@defrilex/eslint-config": "workspace:*",
+    "@defrilex/tsconfig": "workspace:*",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
